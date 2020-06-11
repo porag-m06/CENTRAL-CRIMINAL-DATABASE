@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,600,600i,700&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Asap, sans-serif;
+
+}
+
+body{
+  font-size: 100%;
+  background: #4C4C4C;
+  background-image: url("images/bk6.jpg");
+}
+
+.header {
+  margin: 50px auto 0px;
+  padding: 20px;
+  width: 30%;
+  color: white;
+  background : black;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 20px;
+}
+
+form{
+  width: 50%;
+  height: 55%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #FFFFFF;
+  color: black;
+  text-align: center;
+  background:  #ABAFAF ;
+  border-radius: 20px;
+}
+
+.input_info{
+  margin: 10px 0px 10px 0px;
+}
+
+.input_info label{
+  display: block;
+  text-align: center;
+  margin: 3px;
+}
+
+.input_info input{
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid yellow;
+}
+
+.btn {
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 15px;
+  color: orange;
+  background: black;
+  border: none;
+  border-radius: 5px;
+}
